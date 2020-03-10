@@ -5043,6 +5043,7 @@ footer .footer-menu .tit svg{
 	#kasco_offer.kasco_offer-inside .kasco_offer-item .company-tariff{padding: 0;margin:0;overflow-x:auto;}
 	.kasco_item .message{margin-top:24px;}
 	#useful-articles .filter-content .filter-item {min-width: 35%;}
+	#kasco_offer .filter .sum{display:none;}
 	
 }
 @media  (max-width: 760px) {
@@ -5227,4 +5228,5 @@ footer .footer-menu .tit svg{
 	.search .search-panel, .mmenu .search .search-panel{width: 100%;}
 	.search input{width:100%}
 	.search {position: inherit;}
+	.lim-none{display:none !important}
 }
