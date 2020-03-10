@@ -1464,7 +1464,7 @@ header .header_bottom{
     padding: 16px 16px 16px;
 }
 .search.show .search-panel{
-    transform: translate(0, 85px);
+    transform: translate(0, 66px);
     opacity: 1;
     z-index: 4;
 }
@@ -1498,7 +1498,7 @@ header .header_bottom{
     float: none;
     border: 0;
     height: 100%;
-    width: 400px !important;
+    width: 400px;
     font-size: 18px;
     line-height: 130%;
     font-family: 'latobold';
@@ -4571,7 +4571,8 @@ footer .footer-footer p{
     height: 64px;
 }
 .mmenu .search .search-panel{
-    width: 300px;
+    width: 280px;
+    padding: 10px;
 }
 .mmenu .menu-head .logo{
     height: 30px;
@@ -4905,6 +4906,8 @@ footer .footer-menu .tit svg{
 	#apply_page .apply-form .flex_j-flex-end {-webkit-justify-content: center; justify-content: center;}
 	#apply_page .apply-form .top{padding:40px;}
 	#polis-banner{margin-top:56px;}
+	
+	.search input{width:100% !important}
 
 	#polis-banner .container{width:100%}
 	#polis-banner .polis-banner-1{width:100%;-webkit-justify-content: center; justify-content: center;margin-bottom:56px}
@@ -5220,5 +5223,8 @@ footer .footer-menu .tit svg{
 	#kasco_offer.kasco_offer-inside .kasco_offer-item .tariff-item button{font-size:16px;}
 	#kasco_offer.kasco_offer-inside .kasco_offer-tariff{margin-bottom:0;}
 	#useful-articles .filter-content .filter-item {min-width: 85%;}
-
+	
+	.search .search-panel, .mmenu .search .search-panel{width: 100%;}
+	.search input{width:100%}
+	.search {position: inherit;}
 }
