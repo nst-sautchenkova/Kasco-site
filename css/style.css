@@ -5044,6 +5044,7 @@ footer .footer-menu .tit svg{
 	.kasco_item .message{margin-top:24px;}
 	#useful-articles .filter-content .filter-item {min-width: 35%;}
 	#kasco_offer .filter .sum{display:none;}
+	#kasco_offer{z-index:4}
 	
 }
 @media  (max-width: 760px) {
